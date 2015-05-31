@@ -37,6 +37,13 @@
 	margin-top: -26px;
 }
 
+#construction {
+	margin: auto
+}
+
+#consthead {
+	margin: auto
+}
 
 a:link {
     text-decoration: none;
