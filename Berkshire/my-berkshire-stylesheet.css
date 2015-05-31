@@ -1,8 +1,21 @@
 #Header {
-	font-weight: bold;
+	text-align: center;
+}
+
+.Font2 {
 	font-color: #000080;
 	font-family: DejaVu Serif;
-	text-align: center;
+	font-size: 2;
+}
 
+.Font4 {
+	font-color: #000080;
+	font-family: DejaVu Serif;
+	font-size: 4;
+}
 
+.Font6 {
+	font-color: #000080;
+	font-family: DejaVu Serif;
+	font-size: 6;
 }
