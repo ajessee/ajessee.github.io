@@ -1,9 +1,25 @@
+div {
+	display: inline;
+}
+
+#Captial {
+	color: #000080;
+	font-family: DejaVu Serif;
+	font-size: 6;
+}
+
+#Lower {
+	color: #000080;
+	font-family: DejaVu Serif;
+	font-size: 4;
+}
+
 #Header {
 	text-align: center;
 }
 
 .Font2 {
-	font-color: #000080;
+	color: #000080;
 	font-family: DejaVu Serif;
 	font-size: 2;
 }
