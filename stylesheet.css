@@ -14,15 +14,20 @@ div {
 }
 
 #Header {
-	font-family: Impact;
-	font-size: 7em; 
+	font-size: 7em;
 	position: relative;
-	display: inline-block;
+	display: inline;
+	margin-left: 332px;
+	font-family: Arial;
 }
 
 #Subhead {
-	font-family: Times;
-	font-size: 3em; 
+	font-family: Arial;
 	display: inline-block;
+	color: #000;
+	position: relative;
+	font-size: 1.5em;
+	margin-left: 668px;
+	margin-top: -26px;
 }
 
