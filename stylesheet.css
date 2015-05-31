@@ -1,9 +1,11 @@
 .Links {
-	position: fixed;
-	margin: auto;
+	position: relative;
+	margin-left: 1133px;
 	display: block;
-	font-family: times;
-	font-size: 1em;
+	font-family: arial;
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 341px;
 }
 
 #Hero {
