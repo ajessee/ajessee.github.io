@@ -1,7 +1,6 @@
 div {
 	height: 50px;
 	width: 100px;
-	border: 2px solid black;
 	border-radius: 5px;
 	display: block;
 	margin: auto;
@@ -15,4 +14,10 @@ div {
 #Subhead {
 	font-family: Times;
 	font-size: 3em; 
+}
+
+#Hero {
+	height: 100px;
+	width: 150px;
+	margin: auto
 }
