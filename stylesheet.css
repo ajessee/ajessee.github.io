@@ -1,13 +1,18 @@
 div {
-	
+	height: 50px;
+	width: 100px;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: block;
+	margin: auto;
 }
 
 #Header {
 	font-family: Impact;
-	font-size: 3em; 
+	font-size: 7em; 
 }
 
 #Subhead {
 	font-family: Times;
-	font-size: 1em; 
+	font-size: 3em; 
 }
