@@ -6,6 +6,7 @@
 	font-size: 2em;
 	font-weight: bold;
 	margin-top: 341px;
+	color: black;
 }
 
 #Hero {
@@ -49,9 +50,9 @@
 
 a:link {
     text-decoration: none;
-    color: #000000;
+    color: black;
 }
 
 a:hover {
-	color: black;
+	color: grey;
 }
