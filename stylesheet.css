@@ -1,6 +1,6 @@
 div {
-	margin: auto
 	position: fixed;
+	margin: auto;
 	display: block;
 	font-family: times;
 	font-size: 1em;
