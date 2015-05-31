@@ -1,9 +1,8 @@
-html {
-  background-color: red;
-}
-
 #Header {
 	font-weight: bold;
 	font-color: #000080;
 	font-family: DejaVu Serif;
+	position: absolute;
+	text-align: center;
+
 }
