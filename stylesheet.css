@@ -56,3 +56,7 @@ a:hover {
 	color: grey;
 }
 
+
+a:visited {
+    color: green;
+}
