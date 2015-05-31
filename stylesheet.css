@@ -6,6 +6,11 @@ div {
 	margin: auto;
 }
 
+#Hero {
+	margin: auto;
+	width: 1286px;
+	height: 500px;
+}
 /*#bg {
   /* Set rules to fill background */
   min-height: 100%;
@@ -15,19 +20,18 @@ div {
   width: 100%;
   height: auto;
 	
-  /* Set up positioning */
+  /* Set up positioning 
   position: fixed;
   top: 0;
   left: 0;
 }
-*/
 
 #bg {
   position: fixed; 
   top: 0; 
   left: 0; 
 	
-  /* Preserve aspet ratio */
+  /* Preserve aspet ratio 
   min-width: 100%;
   min-height: 100%;
 }
@@ -64,8 +68,3 @@ div {
 	display: inline-block;
 }
 
-/*#Hero {
-	margin: auto;
-	width: 1286px;
-	height: 500px;
-}
