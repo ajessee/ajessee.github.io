@@ -35,6 +35,12 @@
 	margin-top: -26px;
 }
 
+#button {
+	height: 25px;
+	width: 50px;
+	border: 1px solid black;
+}
+
 a:link {
     text-decoration: none;
     color: #008B45;
