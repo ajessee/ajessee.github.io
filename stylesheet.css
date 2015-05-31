@@ -9,6 +9,7 @@ div {
 #Header {
 	font-family: Impact;
 	font-size: 7em; 
+	position: relative;
 }
 
 #Subhead {
@@ -18,7 +19,7 @@ div {
 }
 
 #Hero {
-	height: 100px;
-	width: 150px;
-	margin: auto
+	margin: auto;
+	width: 1286px;
+	height: 500px;
 }
