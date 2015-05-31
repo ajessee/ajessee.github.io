@@ -38,11 +38,13 @@
 }
 
 #construction {
-	margin: auto
+	margin-left: 475px;
 }
 
 #consthead {
-	margin: auto
+	margin-left: 160px;
+	display: block;
+	font-size: 4em;
 }
 
 a:link {
@@ -54,6 +56,3 @@ a:hover {
 	color: grey;
 }
 
-a:visited {
-    color: maroon;
-}
