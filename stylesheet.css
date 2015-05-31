@@ -1,12 +1,11 @@
 .Links {
 	position: relative;
-    margin-left: 1133px;
-    display: block;
-    font-size: 2em;
-    font-weight: bold;
-    margin-top: 341px;
-    font-family: Arial;
-}
+	margin-left: 1133px;
+	display: block;
+	font-family: arial;
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 341px;
 }
 
 #Hero {
@@ -39,15 +38,13 @@
 }
 
 
-}
-
 a:link {
     text-decoration: none;
     color: black;
 }
 
 a:hover {
-    color: red;
+	color: grey;
 }
 
 a:visited {
