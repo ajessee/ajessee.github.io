@@ -20,7 +20,8 @@ div {
 #Header {
 	font-family: Impact;
 	font-size: 7em; 
-	position: absolute;
+	position: relative;
+	display: inline-block;
 }
 
 #Subhead {
