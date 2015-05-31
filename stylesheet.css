@@ -10,13 +10,13 @@
 
 #Hero {
 	margin: auto;
-    min-height: 100%;
-    min-width: 1024px;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    left: 0px;
-    top: 0px;
+    	min-height: 100%;
+    	min-width: 1024px;
+    	width: 100%;
+	height: auto;
+    	position: fixed;
+    	left: 0px;
+    	top: 0px;
 }
 
 #Header {
