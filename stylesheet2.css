@@ -8,3 +8,16 @@
 	margin-top: 241px;
 	color: black;
 }
+
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #CCCCB2;
+}
+
+a:visited {
+    color: #000000;
+}
