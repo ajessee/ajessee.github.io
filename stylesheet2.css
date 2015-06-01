@@ -1,14 +1,3 @@
-.Links {
-    position: relative;
-    margin-left: 1133px;
-    display: block;
-    font-family: arial;
-    font-size: 2em;
-    font-weight: bold;
-    margin-top: -18px;
-    color: #000;
-}
-
 a:link {
     text-decoration: none;
     color: #000;
@@ -21,3 +10,15 @@ a:hover {
 a:visited {
     color: #B22222;
 }
+
+.Links {
+    position: relative;
+    margin-left: 1133px;
+    display: block;
+    font-family: arial;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: -18px;
+    color: #000;
+}
+
