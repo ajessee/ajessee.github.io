@@ -11,13 +11,13 @@
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: #000;
 }
 
 a:hover {
-    color: #grey;
+    color: #8D8D8C;
 }
 
 a:visited {
-    color: firebrick;
+    color: #B22222;
 }
