@@ -48,4 +48,16 @@
 	font-size: 4em;
 }
 
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:visited {
+    color: #000000;
+}
 
