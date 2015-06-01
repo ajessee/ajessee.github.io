@@ -5,13 +5,16 @@ div {
 #Regular {
 	color: #000080;
 	font-family: DejaVu Serif;
+	font-weight: bold;
 	font-size: 6;
 }
 
 #Special {
 	color: #000080;
 	font-family: DejaVu Serif;
+	font-weight: bold;
 	font-size: 4;
+
 }
 
 #Header {
