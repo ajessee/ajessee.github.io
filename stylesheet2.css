@@ -8,20 +8,29 @@ a:hover {
 }
 
 a:visited {
-    color: #B22222;
+    color: black;
 }
 
 .Links {
-    position: relative;
-    margin-left: 1133px;
+    position: fixed;
+    margin-left: 1200px;
     display: block;
     font-family: arial;
     font-size: 2em;
     font-weight: bold;
-    margin-top: -18px;
+    margin-top: 580px;
     color: #000;
 }
 
 #consthead {
+    display: inline;
+    position: absolute;
+    margin-left: 164px;
+}
     
+#construction {
+    display: inline;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 190px
 }
