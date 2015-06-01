@@ -1,0 +1,35 @@
+a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #8D8D8C;
+}
+
+a:visited {
+    color: black;
+}
+
+.Links {
+    position: relative;
+    margin-left: 1133px;
+    display: block;
+    font-family: arial;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 341px;
+}
+
+#consthead {
+    display: inline;
+    position: absolute;
+    margin-left: 164px;
+}
+    
+#construction {
+    display: inline;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 190px
+}
