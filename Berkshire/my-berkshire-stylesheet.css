@@ -2,18 +2,21 @@ div {
 	display: inline;
 }
 
-#Regular {
+
+.Regular {
+	display: inline;
 	color: #000080;
 	font-family: DejaVu Serif;
 	font-weight: bold;
 	font-size: 6;
 }
 
-#Special {
+.Special {
+	display: inline;
 	color: #000080;
 	font-family: DejaVu Serif;
 	font-weight: bold;
-	font-size: 4;
+	font-size: 6;
 
 }
 
