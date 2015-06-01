@@ -1,6 +1,6 @@
 a:link {
     text-decoration: none;
-    color: #000;
+    color: white;
 }
 
 a:hover {
@@ -8,7 +8,7 @@ a:hover {
 }
 
 a:visited {
-    color: black;
+    color: white;
 }
 
 .Links {
@@ -36,8 +36,9 @@ a:visited {
     font-size: 7em;
     position: relative;
     display: inline;
-    margin-left: 332px;
+    margin-left: 20px;
     font-family: Arial;
+    color: white;
 }
 
 #Subhead {
