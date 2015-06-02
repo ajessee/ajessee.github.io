@@ -4,14 +4,6 @@ a:hover {color: #8D8D8C;}
 a:focus {color: #8D8D8C;}
 a:active {color: maroon;}
 
-ul
-{
-    list-style-type: none;
-    font-family: times
-    font-size: 3em;
-    color: black;
-}
-
 #Hero {
     margin: auto;
         min-height: 100%;
@@ -38,5 +30,16 @@ ul
     font-size: 2em;
     font-weight: bold;
     position: relative;
-    margin: 328px 20px 20px 1080px;
+    list-style-type: none;
+    margin: 217px 20px 20px 1080px;
+}
+
+.BlogLinks
+{
+    position: relative;
+    display: block;
+    font-family: Courier;
+    color: #000;
+    margin: 46px 10px 10px 661px;
+    font-size: 2.1em;
 }

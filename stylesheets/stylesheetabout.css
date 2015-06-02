@@ -4,9 +4,12 @@ a:hover {color: #8D8D8C;}
 a:focus {color: #8D8D8C;}
 a:active {color: maroon;}
 
-ul
-{
+ul {
     list-style-type: none;
+}
+
+p {
+    
 }
 
 #Hero {
@@ -21,12 +24,28 @@ ul
 }
 
 #Header {
-    font-size: 7em;
+    font-size: 4em;
     position: relative;
     display: inline;
-    margin-left: 20px;
+    margin-left: 0px;
     font-family: Arial;
     color: white;
+}
+
+#Higher {
+    font-size: 1em
+    font-family: arial;
+    position: relative;
+    color: #000;
+    margin: 0px 552px 20px 0px
+}
+
+#Lower {
+    font-size: 1em
+    font-family: arial;
+    position: relative;
+    color: #000;
+    margin: 201px 709px 20px 0px;
 }
 
 .Links {
@@ -34,5 +53,11 @@ ul
     font-size: 2em;
     font-weight: bold;
     position: relative;
-    margin: 376px 20px 20px 1080px;
+    margin: -139px 20px 20px 1080px;
+}
+
+.Social {
+    position: relative;
+    margin: -626px 20px 20px 1218px;
+    list-style-type: none;
 }
