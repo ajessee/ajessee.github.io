@@ -1,0 +1,52 @@
+a:link {color: black; text-decoration: none}
+a:visited {color: black;}
+a:hover {color: #8D8D8C;}
+a:focus {color: #8D8D8C;}
+a:active {color: maroon;}
+
+#Hero {
+    margin: auto;
+        min-height: 100%;
+        min-width: 1024px;
+        width: 100%;
+    height: auto;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+}
+#Header {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#Subhead {
+    font-size: 2em;
+    text-decoration: underline; 
+}
+
+#Title {
+    position: relative;
+    display: block;
+    font-family: Courier;
+    margin: 40px;
+}
+
+#Body {
+    position: relative;
+    display: block;
+    font-family: Courier;
+    font-size: 2em;
+    margin: 105px;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.Links {
+    font-family: arial;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    list-style-type: none;
+    margin: 0px 20px 20px 1125px;
+}
+
