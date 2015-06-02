@@ -11,9 +11,9 @@ ul
 
 #Hero {
 	margin: auto;
-    	min-height: 103.5%;
+    	min-height: 100%;
     	min-width: 1024px;
-    	width: 103.5%;
+    	width: 100%;
 	height: auto;
     	position: fixed;
     	left: 0px;
