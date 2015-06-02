@@ -1,31 +1,19 @@
-a:link {
-    text-decoration: none;
-    color: #000;
-}
+a:link {color: black; text-decoration: none}
+a:visited {color: black;}
+a:hover {color: #8D8D8C;}
+a:focus {color: #8D8D8C;}
+a:active {color: maroon;}
 
-a:hover {
-    color: #8D8D8C;
-}
-
-a:visited {
-    color: black;
-}
-
-.Links {
-	position: relative;
-	margin-left: 1133px;
-	display: block;
-	font-family: arial;
-	font-size: 2em;
-	font-weight: bold;
-	margin-top: 341px;
+ul
+{
+    list-style-type: none;
 }
 
 #Hero {
 	margin: auto;
-    	min-height: 100%;
+    	min-height: 103.5%;
     	min-width: 1024px;
-    	width: 100%;
+    	width: 103.5%;
 	height: auto;
     	position: fixed;
     	left: 0px;
@@ -34,29 +22,33 @@ a:visited {
 
 #Header {
 	font-size: 7em;
-	position: relative;
-	display: inline;
-	margin-left: 332px;
 	font-family: Arial;
+	color: #000;
+	position: relative;
+	display: block;
+	margin-left: 332px;
 }
 
 #Subhead {
+	font-size: 1.5em;
 	font-family: Arial;
-	display: inline-block;
 	color: #000;
 	position: relative;
-	font-size: 1.5em;
-	margin-left: 668px;
-	margin-top: -26px;
-}
-
-#construction {
-	margin-left: 475px;
-}
-
-#consthead {
-	margin-left: 160px;
 	display: block;
-	font-size: 4em;
+	margin-left: 675px;
+	margin-top: -17px;
 }
+
+.Links {
+	font-family: arial;
+	font-size: 2em;
+	font-weight: bold;
+	position: relative;
+	margin: 365px 20px 20px 1080px;
+}
+
+
+
+	
+
 

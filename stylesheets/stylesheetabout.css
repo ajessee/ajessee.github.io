@@ -1,24 +1,12 @@
-a:link {
-    text-decoration: none;
-    color: white;
-}
+a:link {color: white; text-decoration: none}
+a:visited {color: white;}
+a:hover {color: #8D8D8C;}
+a:focus {color: #8D8D8C;}
+a:active {color: maroon;}
 
-a:hover {
-    color: #8D8D8C;
-}
-
-a:visited {
-    color: white;
-}
-
-.Links {
-    position: relative;
-    margin-left: 1133px;
-    display: block;
-    font-family: arial;
-    font-size: 2em;
-    font-weight: bold;
-    margin-top: 341px;
+ul
+{
+    list-style-type: none;
 }
 
 #Hero {
@@ -41,23 +29,10 @@ a:visited {
     color: white;
 }
 
-#Subhead {
-    font-family: Arial;
-    display: inline-block;
-    color: #000;
+.Links {
+    font-family: arial;
+    font-size: 2em;
+    font-weight: bold;
     position: relative;
-    font-size: 1.5em;
-    margin-left: 668px;
-    margin-top: -26px;
+    margin: 376px 20px 20px 1080px;
 }
-
-#construction {
-    margin-left: 475px;
-}
-
-#consthead {
-    margin-left: 160px;
-    display: block;
-    font-size: 4em;
-}
-

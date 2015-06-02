@@ -1,35 +1,36 @@
-a:link {
-    text-decoration: none;
-    color: #000;
-}
+a:link {color: black; text-decoration: none}
+a:visited {color: black;}
+a:hover {color: #8D8D8C;}
+a:focus {color: #8D8D8C;}
+a:active {color: maroon;}
 
-a:hover {
-    color: #8D8D8C;
-}
-
-a:visited {
-    color: black;
-}
-
-.Links {
-    position: relative;
-    margin-left: 1133px;
-    display: block;
-    font-family: arial;
-    font-size: 2em;
-    font-weight: bold;
-    margin-top: 341px;
+ul
+{
+    list-style-type: none;
 }
 
 #consthead {
-    display: inline;
-    position: absolute;
-    margin-left: 164px;
+    font-size: 4em;
+    font-family: Arial;
+    color: #000;
+    position: relative;
+    display: block-inline;
+    margin: auto;
+    text-align: center;
 }
     
 #construction {
-    display: inline;
-    position: absolute;
-    margin-left: 450px;
-    margin-top: 190px
+    height: 400px;
+    width: 400px;
+    position: relative;
+    display: inline-block;
+    margin: 0px 0px 0px 400px;
+}
+
+.Links {
+    font-family: arial;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    margin: -45px 20px 20px 1080px;
 }
