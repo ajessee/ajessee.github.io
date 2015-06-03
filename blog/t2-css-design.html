@@ -18,17 +18,34 @@
 
   <section id="Body">
     <p>
-    Paragraph 1 </p>
+    So this week was really hard. I got the HTML stuff, which I had some practice with previously when I had taken some codeacademy courses on my own, but that was many moons ago.  </p>
 
     <p>
-    Paragraph 2 </p>
+    The hardest concepts for me to grasp in CSS were things like positioning, display, floating, clearing - basically how to get an element (think of an element as an object like a paragraph, image, or link) on the page to move where you want it to go and play nice with others. So here is my attempt to clarify one of those concepts for a lay audience. Hopefully it will solidify the concepts in my own mind too. </p>
 
     <p>
-    Paragraph 3 </p>
+    There are four types of positioning in CSS. These are:</p>
+
+    <ol>
+      <li>Static</li>
+      <li>Relative</li>
+      <li>Absolute</li>
+      <li>Fixed</li>
+    </ol>
 
     <p>
-    Paragraph 4 </p>
+    What is the difference between them? </p>
 
+    <p>
+    Let's start with static. Static is the default way an element will appear in the normal "flow" of an HTML file. Think of an HTML file as a cascade. Things start in the top left-hand corner and flow down from there. You normally have to "declare" positions, but since static is the default, you don't have to declare it, the webpage just knows (like magic!).</p>
+
+    <p> Next is relative. This starts much like static - it will position your element in the normal flow of the HTML file. However, then you can move it around by offsetting it some amount using the properties of "left, top, right, bottom" in that order. This is a more dynamic positioning, and can cause elements to overlap other elements. This indeed may be the desired effect. </p>
+
+    <p>Third is absolute positioning. This removes the element from the normal flow of your HTML file and positions it to the top left of its nearest parent element that has a position declared other than static. Whoa. I know, read that sentence again. It's OK, it didn't make much sense to me either at the beginning. One concept that I haven't covered is nesting, which basically means you can put elements inside of each other. Then, they become linked like parents and children. The child will inherit characteristic of its parent, and have a special relationship with it. So basically, if you position something absolutely, it will position itself in relation to it's parent element if that parent element is positioned relatively, absolutely, or fixed(ly?). If no parent element with a position other than static exists, then it will be positioned from the top left of the browser window. Whew. Don't worry, it's a lot, and if you are still reading, go look it up and have someone who actually knows what they are talking about try to explain it.</p>
+
+    <p>Finally, there is fixed positioning. This is a much easier concept to understand. This will position the element to the top left of the browser window (which is considered its parent). This element will remain on the same place you put it, and will not scroll with the other text. It's how designers go cool things like have navigation bars that don't move.</p>
+
+    <p>Thanks for making it through that, and hopefully as I study and absorb these concepts more I will be able to do a better job of explaining them. </p>
   </section>
 
   <ul class="Links">
