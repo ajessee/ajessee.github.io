@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Enumerating</title>
+  <title>Enumerables</title>
   <link type="text/css" rel="stylesheet" href="../stylesheets/stylesheetblogentry.css"/>
 </head>
 
@@ -12,24 +12,29 @@
   </div>
 
   <div id="Title">
-    <p id="Header">Enumerating</p>
+    <p id="Header">Enumerables</p>
     <p id="Subhead">Sunday, June 14th 2015</p>
   </div>
 
   <section id="Body">
 
 
-    <p>
-    At the risk of sounding like an advertisment for Dev Bootcamp, I will say that I think the thing that differentiates them from their competitors is a holistic view of education. There is a real emphasis on learning how to learn, and I have really enjoyed it so far. I have a four-year college degree so I know "how to school", but I didn't incorporate learning skills like reflection, emotional intelligence, and feedback into that experience. I've been very aware of myself as I've gone through the first 3 weeks of this process, and it has yielded some interesting insights.</p>
+    <p>e·nu·mer·a·ble     / əˈn(y)o͞omərəb(ə)l/</p>
+
+    <p>adjective, Mathematics</p>
+
+    <p>able to be counted by one-to-one correspondence with the set of all positive integers.</p>
 
     <p>
-    ## Learning Competencies
-    - Research a public Ruby method and identify a scenario it could be used in
-    - Explain how to use an existing Ruby method
+    This is what I like to do when I am really having trouble understanding a concept. I go to the dictionary definition, and try to see if I can decipher anything from it. In this case, it's still fuzzy. It looks like enumerable is a way to describe if something can count or be counted indexed with a set of positive integers. </p>
 
-    ## Summary
-    In this blog, you will do a bit of research on an Enumerable method and teach the method to your reader. Time-box yourself to an hour -- max 1.5 hours on your blog post. These aren't expected to be professional or perfect, but meant to show where you are at this point in your learning.
-    </p>
+    <p>This makes sense if you think of enumerators as a way to loop or iterate over a set of numbers. We can just think of enumerators now as a set of methods to do stuff. There is a whole bunch more happening behind the scenes, like issues with inheritance, code sharing, and mix-ins, but let's leave that for another time.</p>
+
+    <p> So these methods we are talking about are "traversal and searching" methods, which have the ability to sort. By being built-in with the .each method, enumerators can yield successive members of a collection. Basically, these enumerators allow you to search, move, and otherwise manipulate data in a set. </p>
+
+    <p> Once specific method that is an enumerator is the .map method. This method allows you to iterate over the object you specify, and apply a block of code to every element of that object. The output is a new array with the results of running the block once of each element of the object. For example, if you have an array of [1, 2, 3] and you run array.map {|n| n + 1}, this will pass each element of the array through the code block, add 1 to the number and then put the results in a new array.</p>
+
+    <p>I'm still figuring out how to best use this method and in what situations, but it has proved to be pretty convenient to unto this point.</p> 
 
   </section>
 
