@@ -30,7 +30,7 @@ a:active {color: maroon;}
     font-size: 2em;
     font-weight: bold;
     position: fixed;
-    margin: 0em 1em 1em 35em;
+    margin: -2em 1em 1em 35em;
     list-style: outside none none;
 }
 
