@@ -14,50 +14,43 @@ p {
 
 #Hero {
     margin: auto;
-        min-height: 100%;
-        min-width: 1024px;
-        width: 100%;
+    min-height: 100%;
+    min-width: 1em;
+    width: 100%;
     height: auto;
-        position: fixed;
-        left: 0px;
-        top: 0px;
+    position: fixed;
+    left: 0em;
+    top: 0em;
 }
 
 #Header {
     font-size: 4em;
     position: relative;
     display: inline;
-    margin-left: 0px;
+    margin: 0em 1em 1em 3em;
     font-family: Arial;
-    color: white;
+    color: #FFF;
 }
+
 
 #Higher {
     font-size: 1em
     font-family: arial;
     position: relative;
     color: #000;
-    margin: 0px 564px 20px 0px;
-}
-
-#Lower {
-    font-size: 1em
-    font-family: arial;
-    position: relative;
-    color: #000;
-    margin: 201px 709px 20px 0px;
+    margin: -3em 36em 1em 1em;
 }
 
 .Links {
     font-family: arial;
     font-size: 2em;
     font-weight: bold;
-    position: relative;
-    margin: -48px 20px 20px 1125px;
+    position: fixed;
+    margin: 4em 1em 1em 35em;
 }
 
 .Social {
     position: relative;
-    margin: -609px 20px 20px 1244px;
+    margin: -22.5em 1em 1em 32em;
     list-style-type: none;
 }

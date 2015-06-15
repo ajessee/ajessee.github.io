@@ -14,23 +14,23 @@ ul
     font-family: Arial;
     color: #000;
     position: relative;
-    display: block-inline;
-    margin: auto;
+    margin: 0em 1em 1em 1em;
     text-align: center;
 }
     
 #construction {
-    height: 400px;
-    width: 400px;
+    height: 27em;
+    width: 28em;
     position: relative;
     display: inline-block;
-    margin: 0px 0px 0px 400px;
+    margin: -4em 1em 1em 26em;
 }
 
 .Links {
-    font-family: arial;
+   font-family: arial;
     font-size: 2em;
     font-weight: bold;
-    position: relative;
-    margin: -45px 20px 20px 1125px;
+    position: fixed;
+    margin: -3em 1em 1em 35em;
+    list-style: outside none none;
 }
