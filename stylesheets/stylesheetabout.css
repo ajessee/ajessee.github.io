@@ -27,7 +27,7 @@ p {
     font-size: 4em;
     position: relative;
     display: inline;
-    margin: 1em 1em 1em 3em;
+    margin: 1em 1em 1em 0.2em;
     font-family: Arial;
     color: #FFF;
 }
@@ -51,6 +51,7 @@ p {
 
 .Social {
     position: relative;
-    margin: 11.5em 1em 1em 26em
+    display: inline-block;
+    margin: 11em 1em 1em 27em;
     list-style-type: none;
 }
