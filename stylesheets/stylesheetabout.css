@@ -51,6 +51,7 @@ p {
 
 .Social {
     position: relative;
-    margin: -22.5em 1em 1em 32em;
+    margin: 11.5em 1em 1em 26em
     list-style-type: none;
+    display: block;
 }
