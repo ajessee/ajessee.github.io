@@ -27,7 +27,7 @@ p {
     font-size: 4em;
     position: relative;
     display: inline;
-    margin: 0em 1em 1em 3em;
+    margin: 1em 1em 1em 3em;
     font-family: Arial;
     color: #FFF;
 }
@@ -38,7 +38,7 @@ p {
     font-family: arial;
     position: relative;
     color: #000;
-    margin: -3em 36em 1em 1em;
+    margin: 1em 36em 1em 1em;
 }
 
 .Links {
