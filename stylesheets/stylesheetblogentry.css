@@ -47,7 +47,7 @@ a:active {color: maroon;}
     font-size: 2em;
     font-weight: bold;
     list-style-type: none;
-    margin: -3em 1em 1em 34em;
+    margin:0em 1em 1em 34em;
     position: relative;
 }
 
