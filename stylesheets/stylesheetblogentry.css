@@ -7,13 +7,14 @@ a:active {color: maroon;}
 #Hero {
     margin: auto;
         min-height: 100%;
-        min-width: 1024px;
+        min-width: 1em;
         width: 100%;
     height: auto;
         position: fixed;
-        left: 0px;
-        top: 0px;
+        left: 0em;
+        top: 0em;
 }
+
 #Header {
     font-size: 3em;
     font-weight: bold;
@@ -28,7 +29,7 @@ a:active {color: maroon;}
     position: relative;
     display: block;
     font-family: Courier;
-    margin: 40px;
+    margin: 3em;
 }
 
 #Body {
@@ -36,17 +37,17 @@ a:active {color: maroon;}
     display: block;
     font-family: Courier;
     font-size: 2em;
-    margin: 105px;
     text-align: left;
     line-height: 1.5em;
+    margin: 1em 7em 1em 2em;
 }
 
 .Links {
     font-family: arial;
     font-size: 2em;
     font-weight: bold;
-    position: relative;
+    position: fixed;
     list-style-type: none;
-    margin: 0px 20px 20px 1125px;
+    margin: -24em 1em 1em 35em;
 }
 
