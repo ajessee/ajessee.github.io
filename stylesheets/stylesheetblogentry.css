@@ -29,7 +29,7 @@ a:active {color: maroon;}
     position: relative;
     display: block;
     font-family: Courier;
-    margin: 3em;
+    margin: 1em;
 }
 
 #Body {
@@ -39,15 +39,15 @@ a:active {color: maroon;}
     font-size: 2em;
     text-align: left;
     line-height: 1.5em;
-    margin: 1em 7em 1em 2em;
+    margin: 1em 1em 1em 1em;
 }
 
 .Links {
     font-family: arial;
     font-size: 2em;
     font-weight: bold;
-    position: fixed;
     list-style-type: none;
-    margin: -24em 1em 1em 35em;
+    margin: -2em 1em 1em 34em;
+    position: relative;
 }
 
