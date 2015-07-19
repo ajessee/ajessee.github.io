@@ -46,12 +46,12 @@ p {
     font-size: 2em;
     font-weight: bold;
     position: fixed;
-    margin: 4em 1em 1em 35em;
+    margin: 6em 1em 1em 35em;
 }
 
 .Social {
     position: relative;
     display: inline-block;
-    margin: 11em 1em 1em 27em;
+    margin: 14em 1em 1em 27em;
     list-style-type: none;
 }

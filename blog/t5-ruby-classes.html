@@ -13,17 +13,38 @@
 
   <div id="Title">
     <p id="Header">Ruby Classes</p>
-    <p id="Subhead">Sunday, June 22th 2015</p>
+    <p id="Subhead">Sunday, July 19th 2015</p>
   </div>
 
   <section id="Body">
 
 
-    <p>
-    Ruby classes. What can I say? Well, I could make it really confusing and tell you that classes are objects, but that classes spawn objects. Huh?
+    <p>So you want to learn about classes, huh? That's cool, I guess. I keep thinking about who the audience for these blogs is going to be, and my best guess is that is it going to be other Dev Bootcamp students, or potential students. So let me put it to you plainly - this stuff is hard. Now, there are probably those of you who have been dabbling in code for a while or those of you who are straight up geniuses. This stuff comes easy for you and I wish I had your abilities. But I'm just muddling through.
     </p>
 
-    <p>Here is how I look at it. If you want to create multiple objects in Ruby, classes are how you do it. They serve as a kind of blueprint for the objects you are creating. You can give objects standard characteristics that they will inhert from the classes.</p>
+    <p>What I'm going to do is build a class in Ruby and then explain what it does. Here we go:
+
+    class Room # This is the name of the class
+      
+      attr_accessor :size, :doors, :windows, :use # These are setter methods
+
+      def initialize # This is the initialization method
+        @size = size
+        @doors = doors
+        @windows = windows
+        @use = use
+      end
+
+      def info # This is a method to print out the attributes of the room.
+        puts "Hi. I'm a room and I am used for #{use}. I am #{size} big, I have #{doors} doors, and #{windows} windows."
+      end
+    </p>
+
+    <p>Lets talk about the basics of classes. As you may or may not know, in Ruby, everything is an object. Objects are containers that hold data, and they control the access to that data. Objects also have a set of attributes, which in the example above are the size, number of doors, number of windows, and use of the room. These are represented by the variables that start with @ - known as instance variables. Objects also have a set of functions that provide an interface to the object, these are called methods.</p>
+
+    <p>You can use classes to create objects on a batch basis. Using this example, you can create multiple objects called "Room", and each object has certain blank attributes. You can use the setter methods to give these individual objects values for these attributes. The "info" method that I created lets you see all of the attributes of the rooms printed out on the screen.</p>
+
+    <p> That is a very basic overview of what classes are. Stay tuned for a more detailed description."</p> 
 
   </section>
 
