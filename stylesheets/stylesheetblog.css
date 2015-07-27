@@ -30,7 +30,7 @@ a:active {color: maroon;}
     font-size: 2em;
     font-weight: bold;
     position: fixed;
-    margin: -3em 1em 1em 35em;
+    margin: -5em 1em 1em 35em;
     list-style: outside none none;
 }
 
@@ -40,6 +40,6 @@ a:active {color: maroon;}
     display: block;
     font-family: Courier;
     color: #000;
-    margin: -1em 1em 1em 21em;
+    margin: -2em 17em 1em 5em;
     font-size: 2.1em;
 }
