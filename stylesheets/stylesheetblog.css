@@ -3,6 +3,10 @@ a:visited {color: black;}
 a:hover {color: #8D8D8C;}
 a:focus {color: #8D8D8C;}
 a:active {color: maroon;}
+li.Bullet{
+    margin: 15px 0;
+    list-style-type: circle;
+}
 
 #Hero {
   margin: auto;
@@ -23,8 +27,6 @@ a:active {color: maroon;}
     margin: 0.3em 1em 1em 2.5em;
 }
 
-
-
 .Links {
     font-family: arial;
     font-size: 2em;
@@ -42,4 +44,7 @@ a:active {color: maroon;}
     color: #000;
     margin: -3em 3em 1em 6em;
     font-size: 2.0em;
+    -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 2; /* Firefox */
+    columns: 100px 2;
 }

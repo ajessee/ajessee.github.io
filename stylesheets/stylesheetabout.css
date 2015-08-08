@@ -4,13 +4,17 @@ a:hover {color: #8D8D8C;}
 a:focus {color: #8D8D8C;}
 a:active {color: maroon;}
 
+a.Blink:link {color: white; text-decoration: none}
+a.Blink:visited {color: white;}
+a.Blink:hover {color: #8D8D8C;}
+a.Blink:focus {color: #8D8D8C;}
+a.Blink:active {color: maroon;}
+
 ul {
     list-style-type: none;
 }
 
-p {
-    
-}
+
 
 #Hero {
     margin: auto;

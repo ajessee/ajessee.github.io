@@ -25,6 +25,16 @@ a:active {color: maroon;}
     text-decoration: underline; 
 }
 
+#Subheader {
+    font-size: 1em;
+    font-family: Arial;
+    color: #000;
+    position: relative;
+    display: block;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 #Title {
     position: relative;
     display: block;
@@ -38,7 +48,7 @@ a:active {color: maroon;}
     font-family: Courier;
     font-size: 2em;
     text-align: left;
-    line-height: 1.5em;
+    line-height: 2em;
     margin: 1em 1em 1em 1em;
 }
 

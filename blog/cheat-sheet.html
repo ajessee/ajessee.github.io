@@ -12,20 +12,21 @@
     </div>
 
     <div id="Title">
-    <div id="Header">HTML5 Cheat Sheet</div>
+    <p id="Header">HTML Cheat Sheet</p>
     </div>
 
     <div id="Body">
-        <div id="Subheader">What is HTML?</div>
-         <p>
-            HTML is a markup language for describing web documents (web pages).
-            HTML stands for Hyper Text Markup Language
-            A markup language is a set of markup tags
-            HTML documents are described by HTML tags
-            Each HTML tag describes different document content
+        <p id="Subheader">What is HTML?</p>
+        <p>This blog entry will serve as a cheat sheet for HTML. We have learned a bit about these concepts in Phase 0 of Dev Bootcamp (DBC), but I will try to use this as a reference for some of the basics.</p>
+
+        <p>HTML stands for Hyper Text Markup Language, and is a markup language for describing web pages. A markup language is a set of markup tags, and you may be familiar with some of the syntax if you've seen the inner workings of a website. HTML tags are keywords surrounded by angle brackets: <pre>&lt;tagname&gt;content&lt;/tagname&gt;</pre> </p>
+
+        <p>HTML tags normally come in pairs like <pre>&lt;p&gt; and &lt;/p&gt;</pre></p>
+
+        <p> The first tag in a pair is the start tag, the second tag is the end tag. The end tag is written like the start tag, but with a slash before the tag name. Each HTML tag describes different document content, i.e. the head of the document, the body, and other different sections. Let's go through and each one of the required tags to put together a HTML page. Here is a quick example as a visual reference:
         </p>
-     
-     <div id="Subheader">HTML Example</div>
+   
+     <div id="Subheader">Example of HTML syntax:</div>
            <div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="font-style: italic">&lt;!DOCTYPE html&gt;</span>
             <span style="font-weight: bold">&lt;html&gt;</span>
             <span style="font-weight: bold">&lt;head&gt;</span>
@@ -42,49 +43,7 @@
             </p></code>
     
     <div id="Subheader">Example Explained</div>
-            <p>
-            The DOCTYPE declaration defines the document type to be HTML
-            The text between &lt;html&gt; and &lt;/html&gt; describes an HTML document
-            The text between &lt;head&gt; and &lt;/head&gt; provides information about the document
-            The textbetween &lt;title&gt; and &lt;/title&gt; provides a title for the document
-            The text between &lt;body&gt; and &lt;/body&gt; describes the visible page content
-            The text between &lt;h1&gt; and &lt;/h1&gt; describes a heading
-            The text between &lt;p&gt; and &lt;/p&gt; describes a paragraph
-            Using this description, a web browser can display a document with a heading and a paragraph.      
-            </p>
-    
-    <div id="Subheader">HTML Tags</div>
-            <p>
-                HTML tags are keywords (tag names) surrounded by angle brackets:                                            <pre>&lt;tagname&gt;content&lt;/tagname&gt;</pre>
-                HTML tags normally come in pairs like <pre>&lt;p&gt; and &lt;/p&gt;</pre>
-                The first tag in a pair is the start tag, the second tag is the end tag
-                The end tag is written like the start tag, but with a slash before the tag name 
-            </p>
-             
-    <div id="Subheader">HTML Documents</div>
-            <p>
-                <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">HTML headings are defined with the <span style="font-weight: bold">&lt;h1&gt;</span> to <span style="font-weight: bold">&lt;h6&gt;</span> tags:
-
-                Example
-
-                <span style="font-weight: bold">&lt;h1&gt;</span>This is a heading<span style="font-weight: bold">&lt;/h1&gt;</span>
-                <span style="font-weight: bold">&lt;h2&gt;</span>This is a heading<span style="font-weight: bold">&lt;/h2&gt;</span>
-                <span style="font-weight: bold">&lt;h3&gt;</span>This is a heading<span style="font-weight: bold">&lt;/h3&gt;</span>
-                </pre></div>
-
-                </p>
-
-    <div id="Subheader">HTML Headings</div>
-            <p>
-               <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">HTML headings are defined with the <span style="font-weight: bold">&lt;h1&gt;</span> to <span style="font-weight: bold">&lt;h6&gt;</span> tags:
-    
-                Example
-                
-                <span style="font-weight: bold">&lt;h1&gt;</span>This is a heading<span style="font-weight: bold">&lt;/h1&gt;</span>
-                <span style="font-weight: bold">&lt;h2&gt;</span>This is a heading<span style="font-weight: bold">&lt;/h2&gt;</span>
-                <span style="font-weight: bold">&lt;h3&gt;</span>This is a heading<span style="font-weight: bold">&lt;/h3&gt;</span>
-                </pre></div>
-
+            <p>First, all documents must start with a type declaration. The &lt;!DOCTYPE html&gt; declaration you see in the example defines the document type to be HTML. Next, the HTML document itself begins with &lt;html&gt; and ends with &lt;/html&gt;. The text between &lt;head&gt; and &lt;/head&gt; provides meta data (data about the data) for the document. This information is not displayed on the webpage, but it typically defines the document's title, styles, links, scripts, and other meta information. In HTML5 you can omit the head section, but refer to the documentation to read about that. The text between &lt;title&gt; and &lt;/title&gt; provides a title for the document; this title defines the title in the browser toolbar, provides a title for the page when it is added to favorites, and displays a title for the page in search engine results. The text between &lt;body&gt; and &lt;/body&gt; describes the visible page content - this is where you put your text, links, pictures or any other information. There have been a lot of changes with HTML5, and there are a number of new elements that you can use. Again, refer to the documentation on W3 schools for a full cheat sheet.  
             </p>
         
     </div>
