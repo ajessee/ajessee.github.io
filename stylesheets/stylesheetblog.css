@@ -4,7 +4,7 @@ a:hover {color: #8D8D8C;}
 a:focus {color: #8D8D8C;}
 a:active {color: maroon;}
 li.Bullet{
-    margin: 15px 0;
+    margin: 10px 0;
     list-style-type: circle;
 }
 
