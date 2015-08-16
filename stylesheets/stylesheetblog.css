@@ -24,7 +24,7 @@ li.Bullet{
     position: relative;
     display: block;
     font-family: Arial;
-    margin: 0.3em 1em 1em 2.5em;
+    margin: 0.1em 1em 1em 3.5em;
 }
 
 .Links {
@@ -42,9 +42,12 @@ li.Bullet{
     display: block;
     font-family: Courier;
     color: #000;
-    margin: -3em 3em 1em 6em;
+    margin: -3.4em 5em 1em 5em;
     font-size: 2.0em;
-    -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
-    -moz-columns: 100px 2; /* Firefox */
-    columns: 100px 2;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 90px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 90px; /* Firefox */
+    column-gap: 90px;
 }
