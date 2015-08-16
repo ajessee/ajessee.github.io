@@ -14,12 +14,11 @@ body {
 }
 
 div.Box {
-    width: 34em;
-    padding: 1em;
-    border: 25px solid;
-    margin: 1em;
+    width: 69em;
+    border: 10px solid;
+    margin: 1em 1em 2em 7em;
     position: relative;
-    float: left;
+    background-color: white;
 }
 
 div.hr {
@@ -37,15 +36,16 @@ display: none;
     height: 5em;
     width: 5em;
     display: inline;
-    margin: 2em 1em 0em 14em;
+    margin: 2em 1em 0em 32em;
 }
 
 .PHeader {
     font-family: times;
     font-size: 2em;
     font-style: bold;
-    list-style-type: circle;
+    list-style-type: none;
     display: list-item;
+    margin-left: .5em;
 
 }
 
@@ -69,8 +69,8 @@ display: none;
 	font-family: arial;
     font-size: 2em;
     font-weight: bold;
-    position: absolute;
-    margin: 53em 1em 1em 35em;
+    position: relative;
+    margin: 1em 1em 1em 34em;
 }
 
 
