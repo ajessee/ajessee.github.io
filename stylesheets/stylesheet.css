@@ -279,4 +279,19 @@ body {
     #about-page-headers {
         flex-grow: 10;
     }
+
+    #about-page-container a:link {
+        color: whitesmoke;
+        text-decoration: underline;
+        font-family: arial;
+    }
+    
+    #about-page-container a:visited {
+        color: whitesmoke;
+    }
+
+    #about-page-menu a:link {
+        text-decoration: none;
+    }
+    
 }
